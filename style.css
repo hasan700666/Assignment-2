@@ -109,3 +109,28 @@ div > ul >  li > a{
     background-color: #E95A08;
     color: white;
 }
+
+.Plants_Lover_Section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px 0px 150px ;
+    height: 100vw;
+}
+
+.list{
+    display: inline;
+    margin-left: 50px;
+}
+
+.list > p{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.list > ul > li {
+    font-size: 22px;
+}
+
+.flower_store > img{
+    width: 100%;
+}
