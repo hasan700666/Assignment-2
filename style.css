@@ -319,10 +319,6 @@ div > ul >  li > a{
 
 /* responsive midea quary */
 
-.hide{
-    display: none;
-}
-
 @media screen and (max-width: 430px) {
     .list-1{
         display: none;
