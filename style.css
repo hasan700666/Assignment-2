@@ -135,7 +135,13 @@
     margin: 0px 150px 150px 150px ;
 }
 .flower_store{
-
+    position: relative;
+}
+.sticker > img{
+    position: absolute;
+    width: 15vw;
+    top: 2530px;
+    left: 530px;
 }
 .flower_store > img{
     width: 100%;
@@ -231,6 +237,9 @@
   font-size: 28px;
 }
 
+.C2_text{
+    font-size: 38px;
+}
 
 /* Join_Section */
 
@@ -314,3 +323,154 @@ div > ul >  li > a{
     display: none;
 }
 
+@media screen and (max-width: 430px) {
+    .list-1{
+        display: none;
+    }
+    .navbar{
+        margin: 10px;
+    }
+    .card-btn{
+        padding: 10px;
+    }
+    .content{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .hero_flower_pic > img{
+        width: 100vw;
+    }
+    .hadding{
+    font-size: 24px;
+    }
+    .info{
+    font-size: 14px;
+    }
+    .plants_about > h1{
+    font-size: 24px;
+    }
+    .plants_about > p{
+    font-size: 14px;
+    }
+    .plants_about{
+    margin-top: 50px;
+    }
+    .card{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin: 10px;
+    gap: 20px;
+    }
+    .card_desing{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    }
+    .card_desing > img {
+    }
+    .price{
+    font-weight: bolder;
+    }
+    .card_desing > button{
+    border: none;
+    padding:10px 60px;
+    font-size: 10px;
+    }
+    .Plants_Lover_Section{
+    flex-direction: column;
+    margin: 10px;
+    }
+    .flower_store > img{
+    width: 100%;
+    }
+    .list-2{
+    display: inline;
+    margin-left: 0px;
+    }
+    .list-2 > p{
+    font-size: 24px;
+    }
+    .list-2 > ul > li {
+    font-size: 14px;
+    }
+    .Latest_Section{
+    margin-top: 50px;
+    }
+    .Latest-title{
+
+    }
+    .Latest_Section > h1{
+    font-size: 24px;
+    }
+    .Latest_Section > p{
+    font-size: 14px;
+    }
+
+    .Trusted_Plant_Lover_Badge{
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .colam-2 > img{
+        width: 84vw;
+        height: auto;
+        margin-top: 18px;
+    }
+    .C2_text{
+    font-size: 18px;
+    }
+    .Plants_Lover_text_for_C2 {
+    font-size: 17px;
+    }   
+    .Join_Section{
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 19px;
+    margin-top: 50px;
+    }
+    .join_section_text_box {
+  font-size: 13px;
+    }
+    #join_section_text{
+    font-size: 18px;
+    }
+    .Join_Section > img {
+    width: 90vw;
+    height: 40vh;
+    }
+    .email{
+    width: 80vw;
+    }
+    .btn{
+    padding:27px 20px;
+    }
+    
+footer{
+    margin: 10px;
+    flex-direction: column;
+}
+.logo-info > p{
+    font-size: 16px;
+}
+.manu > ul > li{
+    margin-bottom: 35px;
+}
+.manu > ul > li > a{
+    margin-bottom: 100px;
+}
+.social-midea > a > img{
+    margin-right: 20px;
+}
+.manu > ul {
+    padding-left: 0px;
+}
+.card-7{
+    display: none;
+}
+.card-8{
+    display: none;
+}
+.sticker{
+    display: none;
+}
+}
