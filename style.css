@@ -9,6 +9,9 @@
     "wdth" 100;
 }
 
+/* header section*/
+
+/* navbar section */
 
 .navbar{
     display: flex;
@@ -16,28 +19,36 @@
     align-items: center;
     margin: 35px 150px 0px 150px;
 }
+.logo{
 
-.list{
-    display: flex;
-    list-style: none;
 }
-
 .manu_bar{
     display: flex;
 }
-
-div > ul >  li{
-    margin-right: 70px;
+.list-1{
+    display: flex;
+    margin-left: 50px;
 }
-
-div > ul >  li > a{
+.card-btn{
+    border: none;
+    padding:19px 70px;
+    text-align: center;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+}
+.manu_bar > ul >  li{
+    margin-right: 0px;
+    list-style: none;
+}
+.manu_bar > ul >  li > a{
     text-decoration: none;
     color: black;
     font-weight: bold;
+    margin-left: 70px;
 }
 
-
-
+/* content section */
 
 .content{
     display: flex;
@@ -45,40 +56,49 @@ div > ul >  li > a{
     height: 460px;
     justify-content: space-between;
 }
+.text{
 
+}
 .hadding{
     font-size: 65px;
 }
-
 .info{
     font-size: 22px;
 }
-
-.pic{
+.hero_flower_pic{
     display: flex;
     justify-content: end;
 }
 
-.some_text{
+
+/* main section */
+
+/* product  section */
+
+/* plants about section */
+
+.plants_about{
     margin-top: 200px;
 }
+.plants_title{
 
-.some_text > h1{
+}
+.plants_about > h1{
     display: flex;
     justify-content: center;
     font-size: 50px;
 }
+.plants_des{
 
-.some_text > p{
+}
+.plants_about > p{
     display: flex;
     justify-content: center;
     text-align: center;
     font-size: 22px;
 }
 
-
-
-.card_desing{}
+/* card section */
 
 .card{
     display: grid;
@@ -86,21 +106,17 @@ div > ul >  li > a{
     margin: 60px 150px 150px 150px;
     gap: 20px;
 }
-
-.card_desing > img {
-    width: 100%;
-}
-
 .card_desing{
     margin-bottom: 30px;
     text-align: center;
     font-size: 22px;
 }
-
+.card_desing > img {
+    width: 100%;
+}
 .price{
     font-weight: bolder;
 }
-
 .card_desing > button{
     border: none;
     padding: 15px 137px;
@@ -110,92 +126,91 @@ div > ul >  li > a{
     color: white;
 }
 
+
+/* Plants_Lover_Section */
+
 .Plants_Lover_Section{
     display: flex;
     justify-content: space-between;
     margin: 0px 150px 150px 150px ;
 }
+.flower_store{
 
-.list{
-    display: inline;
-    margin-left: 50px;
 }
-
-.list > p{
-    font-size: 50px;
-    font-weight: bolder;
-}
-
-.list > ul > li {
-    font-size: 22px;
-}
-
 .flower_store > img{
     width: 100%;
 }
-
-/* 
-.row{
-    display: flex;
-    justify-content: space-between;
-    height: 450px;
-    margin: 100px 150px 150px 150px;
-}
-
-.row > img{
-    height: 100%;
-}
-
-.colam{
+.list-2{
     display: inline;
+    margin-left: 50px;
 }
-
-.colam-1{
-    background-image: url(../assets/deal-ana.png);
+.list-2 > p{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.list-2 > ul > li {
     font-size: 22px;
-    height: 198px;
-    width: 367px;
-    text-align: center;
-    padding: 20px;
 }
 
-.persent{
-    
-} */
+/* Latest_Section */
+
+.Latest_Section{
+    margin-top: 200px;
+}
+.Latest-title{
+
+}
+.Latest_Section > h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: black;
+}
+.Latest-des{
+
+}
+.Latest_Section > p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+
+
+/* Trusted_Plant_Lover_Badge */
 
 .Trusted_Plant_Lover_Badge{
     display: flex;
     justify-content: space-between;
     margin: 150px 150px 10px 150px;
 }
+.a-desi > a{
+    text-decoration: underline;
+    color: white;
+}
+
 
 .colam-1{
     
 }
-
 .row-1 {
   position: relative;
   text-align: center;
   color: white;
   margin-bottom: 19px;
 }
-
 .flower-img{
     filter: brightness(0.5);
     border-radius: 21px;
 }
-
-.t {
+.Plants_Lover_text_for_C1 {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 13px;
 }
-
-
-
-
 .row-2 {
   position: relative;
   text-align: center;
@@ -203,15 +218,12 @@ div > ul >  li > a{
 }
 
 
-
-
 .colam-2 {
   position: relative;
   text-align: center;
   color: white;
 }
-
-.t2 {
+.Plants_Lover_text_for_C2 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -220,16 +232,7 @@ div > ul >  li > a{
 }
 
 
-
-
-
-.a-desi > a{
-    text-decoration: underline;
-    color: white;
-}
-
-
-
+/* Join_Section */
 
 .Join_Section{
     width: 100%;
@@ -239,53 +242,25 @@ div > ul >  li > a{
     color: white;
     margin-bottom: 19px;
 }
-
-.text-box {
+.join_section_text_box {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 13px;
 }
-
-#text{
+#join_section_text{
     font-size: 50px;
 }
-
 .Join_Section > img {
     width: 100%;
 }
-
-/* input[type="email"]{
-    height: 50px;
-    background-color: #4E47FF;
-    width: 70%;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-    border: #56565f;
-    background-color: whitesmoke;
-    font-size: 15px;
-    position: relative;
-}
-
-.btn{
-    border: none;
-    padding:2px 18px;
-    text-align: center;
-    font-size: 16px;
-    background-color: #E95A08;
-    color: white;
-    position: absolute;
-    bottom: 10px;
-} */
-
 .email{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50vw;
 }
-
 input[type="email"]{
     height: 50px;
     width: 70%;
@@ -294,7 +269,6 @@ input[type="email"]{
     background-color: whitesmoke;
     font-size: 15px;
 }
-
 .btn{
     border: none;
     padding:26px 70px;
@@ -304,35 +278,39 @@ input[type="email"]{
     color: white;
 }
 
+/* footer */
 
 footer{
     margin: 50px 150px 100px 150px;
     display: flex;
     justify-content: space-between;
 }
-
 .logo-info > p{
     font-size: 22px;
 }
-
 div > ul >  li > a{
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
-
 .manu > ul > li{
     list-style: none;
     margin-bottom: 35px;
 }
-
 .manu > ul > li > a{
     text-decoration: none;
     color: black;
     font-weight: bold;
     margin-bottom: 100px;
 }
-
 .social-midea > a > img{
     margin-right: 35px;
 }
+
+
+/* responsive midea quary */
+
+.hide{
+    display: none;
+}
+
