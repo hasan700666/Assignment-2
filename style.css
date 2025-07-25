@@ -207,7 +207,7 @@
   margin-bottom: 19px;
 }
 .flower-img{
-    filter: brightness(0.5);
+    filter: brightness(0.5) !important;
     border-radius: 21px;
 }
 .Plants_Lover_text_for_C1 {
