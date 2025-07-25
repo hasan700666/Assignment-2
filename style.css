@@ -227,3 +227,112 @@ div > ul >  li > a{
     text-decoration: underline;
     color: white;
 }
+
+
+
+
+.Join_Section{
+    width: 100%;
+    margin: 150px 0px 150px 0px;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 19px;
+}
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 13px;
+}
+
+#text{
+    font-size: 50px;
+}
+
+.Join_Section > img {
+    width: 100%;
+}
+
+/* input[type="email"]{
+    height: 50px;
+    background-color: #4E47FF;
+    width: 70%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: #56565f;
+    background-color: whitesmoke;
+    font-size: 15px;
+    position: relative;
+}
+
+.btn{
+    border: none;
+    padding:2px 18px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #E95A08;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+} */
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+input[type="email"]{
+    height: 50px;
+    width: 70%;
+    padding: 10px 20px;
+    border: #56565f;
+    background-color: whitesmoke;
+    font-size: 15px;
+}
+
+.btn{
+    border: none;
+    padding:26px 70px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #E95A08;
+    color: white;
+}
+
+
+footer{
+    margin: 50px 150px 100px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-info > p{
+    font-size: 22px;
+}
+
+div > ul >  li > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.manu > ul > li{
+    list-style: none;
+    margin-bottom: 35px;
+}
+
+.manu > ul > li > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.social-midea > a > img{
+    margin-right: 35px;
+}
